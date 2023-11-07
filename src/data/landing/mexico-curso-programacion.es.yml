@@ -150,6 +150,8 @@ components:
         # shadow: true 
         src: "../../../static/images/testimonials/samantha-review.png"
       video: "https://www.youtube.com/watch?v=32a-phct9I0"
+        height: "320px"
+        width: "100%"
       heading:
         text: "4Geeks en México La Elección de Samantha para su Bootcamp Ideal"
         #xl      lg     md     sm    xs

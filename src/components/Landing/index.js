@@ -60,11 +60,12 @@ const Side = ({
         thumb={image && image.src}
         image_thumb={image}
         id={video}
-        videoHeight="360px"
+        videoHeight={video.height || "360px"}
+        videoWidth={video.width || "100%"}
         margin_tablet="0px"
-        style={{
-          width: "100%",
-        }}
+        // style={{
+        //   width: "100%",
+        // }}
       />
     );
 

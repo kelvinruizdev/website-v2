@@ -520,7 +520,10 @@ export const query = graphql`
               text_link
               link
             }
-            video
+            video{
+              height
+              width
+            }
             height
             button {
               text

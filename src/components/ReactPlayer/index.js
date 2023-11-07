@@ -118,6 +118,7 @@ const Player = ({
   imageWidth_tablet,
   imageHeight,
   videoHeight,
+  videoWidth,
   switched,
   boxShadow,
   width_play,
@@ -255,6 +256,7 @@ const Player = ({
                     ? videoHeightFix(videoHeight)
                     : videoHeight
                 }
+                width={videoWidth}
                 opts={{
                   width: "100%",
                   height: `${style.height}`,
